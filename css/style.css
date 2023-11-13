@@ -1,17 +1,17 @@
 body{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	background-color: rgb(222, 228, 196);
+	background-color: rgb(100, 125, 131);
 	margin: 2rem;
 	padding-top: 2rem;
-
 }
 
 h1 {
-	text-shadow: 2px 2px 2px darkolivegreen;
+	text-shadow: 2px 2px 2px rgb(55, 68, 152);
    font-size: bold x-large;
 	text-align: center;
 }
  .undertext {
+	color:rgb(26, 28, 45);
 	font-size: medium;
 	text-align: center;
  }
@@ -42,12 +42,21 @@ iframe {
  }
 
 
- p {
+p {
 	font-size: smaller;
-
  }
 
 footer {
 	font-size: x-small;
 	text-align: center;
 }
+
+.links:hover {
+	animation-name: fade;
+	animation-duration: 2s;
+ }
+
+ @keyframes fade {
+	from {opacity: .5}
+	to {opacity: 1}
+ }
