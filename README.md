@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # My-20-top-web-design-pages
+=======
+# Web Inspiration Site
+>>>>>>> 09d39da (Add readme file)
 
 ## Description
 
